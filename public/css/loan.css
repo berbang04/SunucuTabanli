@@ -1,0 +1,70 @@
+/* Genel Stil */
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+  }
+  
+  /* Navbar Stili */
+  .navbar {
+      background-color: #333;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+  }
+  .navbar a{
+      float: left;
+      margin-left: 20px;
+      padding: 5px;
+      background-color: #66b5df;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+  }
+  
+  .navbar h2 {
+      margin: 0;
+      font-size: 24px;
+      font-weight: bold;
+  }
+  
+  /* Kiralık Futbolcular Bölümü */
+  .section {
+      padding: 20px;
+      text-align: center;
+  }
+  
+  /* Kartlar Konteyneri (Flexbox Düzeni) */
+  .cards-container {
+      display: grid; /* Grid sistemi ile düzenleme */
+      grid-template-columns: repeat(3, 1fr); /* 3 sütunlu düzen */
+      gap: 20px; /* Kartlar arasındaki boşluk */
+      justify-content: center; /* Ortalamak için */
+      margin-top: 20px;
+  }
+
+  
+  
+  /* Kart Stili */
+  .card {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      width: 80%; /* Kartların genişliği %100 olacak */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: left;
+      transition: box-shadow 0.3s ease; /* Geçiş efekti */
+  }
+  
+  /* Hover efekti */
+  .card:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Hoverda daha belirgin gölge */
+      transform: translateY(-5px); /* Hafif yukarı kayma efekti */
+      background-color: aqua;
+      transition: 0.3s;
+  }
+  
+  
+  

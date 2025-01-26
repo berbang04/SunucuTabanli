@@ -1,0 +1,99 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+  }
+  
+  .navbar {
+      background-color: #333;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+  }
+  .navbar a{
+      float: left;
+      margin-left: 20px;
+      padding: 5px;
+      background-color: #66b5df;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+  }
+  
+  .navbar h2 {
+      margin: 0;
+      font-size: 24px;
+      font-weight: bold;
+  }
+  
+  .section {
+      padding: 20px;
+      text-align: center;
+  }
+  
+  .cards-container {
+      display: grid; 
+      grid-template-columns: repeat(3, 1fr); 
+      gap: 20px; 
+      justify-content: center; 
+      margin-top: 20px;
+  }
+
+  
+  
+  .card {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      width: 80%; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: left;
+      transition: box-shadow 0.3s ease; 
+  }
+  
+  .card:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+      transform: translateY(-5px); 
+      background-color: aqua;
+      transition: 0.3s;
+  }
+  
+  
+.modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      padding-top: 100px;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+      background-color: white;
+      margin: 5% auto;
+      padding: 20px;
+      border-radius: 10px;
+      width: 80%;
+      max-width: 800px;
+  }
+  
+  .close-btn {
+      color: #aaa;
+      font-size: 28px;
+      font-weight: bold;
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      cursor: pointer;
+  }
+  
+  .close-btn:hover,
+  .close-btn:focus {
+      color: black;
+      text-decoration: none;
+  }

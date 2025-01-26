@@ -1,0 +1,160 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+  }
+  .container {
+      display: flex;
+      height: 100%; 
+      width: 100%;
+  }
+
+  .main {
+      height: 100%;
+      background-color: #f9f9f9;
+      padding: 20px;
+      
+  }
+  
+  .main h2 {
+      margin-top: 0;
+  }
+ 
+  .navbar {
+      
+      height: 100%;
+      display: block;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #003366;
+      color: white;
+  }
+  .navbar ul{
+      margin-top: 30px;
+      padding: 0;
+      
+  }
+  
+  .nav-links {
+      list-style: none;
+      display: block;
+      
+      
+      
+  }
+  
+  .nav-links li {
+      margin-top: 40px;
+      margin-left: 0;
+  }
+  .nav-links a {
+      
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+      color: #00ccff;
+  }
+  .nav-links li a i{
+      margin: 4px;
+  }
+  .section {
+      padding: 0.7rem;
+      max-width: 1200px;
+      
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section h2 {
+      color: #003366;
+  }
+  
+  .dashboard-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    #teamRatingChart {
+      flex: 1;
+      max-width: 48%; 
+      height: 400px; 
+    } 
+  
+  .chart, .summary {
+      flex: 1;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      text-align: center;
+  }
+  
+  .transfer-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+  }
+  
+  .transfer-table th, .transfer-table td {
+      padding: 0.75rem;
+      border: 1px solid #ddd;
+      text-align: center;
+  }
+  
+  .transfer-table th {
+      background-color: #003366;
+      color: white;
+  }
+  
+  .transfer-table tr:nth-child(even) {
+      background-color: #f2f2f2;
+  }
+  
+  footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #aab9c9;
+      color: white;
+      margin-top: 2rem;
+  }
+  
+.welcome-message {
+      display: none; 
+      padding: 10px;
+      background-color: #28a745;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: 10px;
+      text-align: center;
+      animation: fadeInOut 5s ease-out forwards; 
+  }
+  
+  @keyframes fadeInOut {
+      0% {
+          opacity: 0;
+          display: block;
+      }
+      10% {
+          opacity: 1;
+      }
+      90% {
+          opacity: 1;
+      }
+      100% {
+          opacity: 0;
+          display: none;
+      }
+  }
+  

@@ -1,0 +1,80 @@
+
+.dashboard-content {
+      display: flex; 
+      justify-content: space-between; 
+      
+      margin-top: 20px; 
+  }
+  
+  #teamRatingChart {
+      
+      max-width: 50%; 
+      height: auto; 
+  }
+  #team-formation{
+      justify-content: center;
+      max-width: 40%;
+  }
+  
+  #team-formation .dashboard-container {
+      
+      max-width: 100%; 
+      display: flex;
+      flex-direction: row; 
+      padding-left: 20px;
+  }
+  
+  .formation {
+      padding: 1px; 
+  }
+  
+  h2 {
+      font-size: 1.8rem;
+      color: #333;
+      margin-bottom: 20px;
+  }
+  
+  .row {
+      display: flex;
+      justify-content: center;
+      margin: 10px 0;
+  }
+  
+  .position {
+      padding: 10px;
+      margin: 0 15px;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 5px;
+      font-size: 1.1rem;
+      text-align: center;
+  }
+  
+  .position.forward {
+      background-color: #FF5722;
+  }
+  
+  .position.winger {
+      background-color: #00BCD4;
+  }
+  
+  .position.center-mid {
+      background-color: #FFEB3B;
+  }
+  
+  .position.defensive-mid {
+      background-color: #8BC34A;
+  }
+  
+  .position.fullback {
+      background-color: #3F51B5;
+  }
+  
+  .position.center-back {
+      background-color: #9C27B0;
+  }
+  
+  .position.goalkeeper {
+      background-color: #607D8B;
+  }
+  
